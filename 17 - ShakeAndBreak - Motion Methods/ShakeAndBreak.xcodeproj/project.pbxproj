@@ -1,0 +1,308 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7494D09F137CECEB0086DC57 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7494D09E137CECEB0086DC57 /* UIKit.framework */; };
+		7494D0A1137CECEB0086DC57 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7494D0A0137CECEB0086DC57 /* Foundation.framework */; };
+		7494D0A3137CECEB0086DC57 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7494D0A2137CECEB0086DC57 /* CoreGraphics.framework */; };
+		7494D0A9137CECEB0086DC57 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7494D0A7137CECEB0086DC57 /* InfoPlist.strings */; };
+		7494D0AC137CECEB0086DC57 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7494D0AB137CECEB0086DC57 /* main.m */; };
+		7494D0AF137CECEB0086DC57 /* ShakeAndBreakAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7494D0AE137CECEB0086DC57 /* ShakeAndBreakAppDelegate.m */; };
+		7494D0B2137CECEB0086DC57 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7494D0B0137CECEB0086DC57 /* MainWindow.xib */; };
+		7494D0B5137CECEB0086DC57 /* ShakeAndBreakViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7494D0B4137CECEB0086DC57 /* ShakeAndBreakViewController.m */; };
+		7494D0B8137CECEB0086DC57 /* ShakeAndBreakViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7494D0B6137CECEB0086DC57 /* ShakeAndBreakViewController.xib */; };
+		7494D0C7137CEF0B0086DC57 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7494D0C6137CEF0B0086DC57 /* CoreMotion.framework */; };
+		7494D0C9137CEF120086DC57 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7494D0C8137CEF120086DC57 /* AudioToolbox.framework */; };
+		74E578BA13CBDB6900D8FE0C /* glass.wav in Resources */ = {isa = PBXBuildFile; fileRef = 74E578B613CBDB6900D8FE0C /* glass.wav */; };
+		74E578BB13CBDB6900D8FE0C /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 74E578B713CBDB6900D8FE0C /* home.png */; };
+		74E578BC13CBDB6900D8FE0C /* homebroken.png in Resources */ = {isa = PBXBuildFile; fileRef = 74E578B813CBDB6900D8FE0C /* homebroken.png */; };
+		74E578BD13CBDB6900D8FE0C /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 74E578B913CBDB6900D8FE0C /* icon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7494D09A137CECEB0086DC57 /* ShakeAndBreak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShakeAndBreak.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7494D09E137CECEB0086DC57 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7494D0A0137CECEB0086DC57 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7494D0A2137CECEB0086DC57 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7494D0A6137CECEB0086DC57 /* ShakeAndBreak-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ShakeAndBreak-Info.plist"; sourceTree = "<group>"; };
+		7494D0A8137CECEB0086DC57 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7494D0AA137CECEB0086DC57 /* ShakeAndBreak-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ShakeAndBreak-Prefix.pch"; sourceTree = "<group>"; };
+		7494D0AB137CECEB0086DC57 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7494D0AD137CECEB0086DC57 /* ShakeAndBreakAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShakeAndBreakAppDelegate.h; sourceTree = "<group>"; };
+		7494D0AE137CECEB0086DC57 /* ShakeAndBreakAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShakeAndBreakAppDelegate.m; sourceTree = "<group>"; };
+		7494D0B1137CECEB0086DC57 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		7494D0B3137CECEB0086DC57 /* ShakeAndBreakViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShakeAndBreakViewController.h; sourceTree = "<group>"; };
+		7494D0B4137CECEB0086DC57 /* ShakeAndBreakViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShakeAndBreakViewController.m; sourceTree = "<group>"; };
+		7494D0B7137CECEB0086DC57 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ShakeAndBreakViewController.xib; sourceTree = "<group>"; };
+		7494D0C6137CEF0B0086DC57 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		7494D0C8137CEF120086DC57 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		74E578B613CBDB6900D8FE0C /* glass.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = glass.wav; sourceTree = "<group>"; };
+		74E578B713CBDB6900D8FE0C /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		74E578B813CBDB6900D8FE0C /* homebroken.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = homebroken.png; sourceTree = "<group>"; };
+		74E578B913CBDB6900D8FE0C /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7494D097137CECEB0086DC57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7494D0C9137CEF120086DC57 /* AudioToolbox.framework in Frameworks */,
+				7494D0C7137CEF0B0086DC57 /* CoreMotion.framework in Frameworks */,
+				7494D09F137CECEB0086DC57 /* UIKit.framework in Frameworks */,
+				7494D0A1137CECEB0086DC57 /* Foundation.framework in Frameworks */,
+				7494D0A3137CECEB0086DC57 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7494D08F137CECEB0086DC57 = {
+			isa = PBXGroup;
+			children = (
+				7494D0A4137CECEB0086DC57 /* ShakeAndBreak */,
+				7494D09D137CECEB0086DC57 /* Frameworks */,
+				7494D09B137CECEB0086DC57 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7494D09B137CECEB0086DC57 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7494D09A137CECEB0086DC57 /* ShakeAndBreak.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7494D09D137CECEB0086DC57 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7494D0C8137CEF120086DC57 /* AudioToolbox.framework */,
+				7494D0C6137CEF0B0086DC57 /* CoreMotion.framework */,
+				7494D09E137CECEB0086DC57 /* UIKit.framework */,
+				7494D0A0137CECEB0086DC57 /* Foundation.framework */,
+				7494D0A2137CECEB0086DC57 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7494D0A4137CECEB0086DC57 /* ShakeAndBreak */ = {
+			isa = PBXGroup;
+			children = (
+				7494D0AD137CECEB0086DC57 /* ShakeAndBreakAppDelegate.h */,
+				7494D0AE137CECEB0086DC57 /* ShakeAndBreakAppDelegate.m */,
+				7494D0B0137CECEB0086DC57 /* MainWindow.xib */,
+				7494D0B3137CECEB0086DC57 /* ShakeAndBreakViewController.h */,
+				7494D0B4137CECEB0086DC57 /* ShakeAndBreakViewController.m */,
+				7494D0B6137CECEB0086DC57 /* ShakeAndBreakViewController.xib */,
+				7494D0A5137CECEB0086DC57 /* Supporting Files */,
+			);
+			path = ShakeAndBreak;
+			sourceTree = "<group>";
+		};
+		7494D0A5137CECEB0086DC57 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				74E578B613CBDB6900D8FE0C /* glass.wav */,
+				74E578B713CBDB6900D8FE0C /* home.png */,
+				74E578B813CBDB6900D8FE0C /* homebroken.png */,
+				74E578B913CBDB6900D8FE0C /* icon.png */,
+				7494D0A6137CECEB0086DC57 /* ShakeAndBreak-Info.plist */,
+				7494D0A7137CECEB0086DC57 /* InfoPlist.strings */,
+				7494D0AA137CECEB0086DC57 /* ShakeAndBreak-Prefix.pch */,
+				7494D0AB137CECEB0086DC57 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7494D099137CECEB0086DC57 /* ShakeAndBreak */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7494D0BB137CECEB0086DC57 /* Build configuration list for PBXNativeTarget "ShakeAndBreak" */;
+			buildPhases = (
+				7494D096137CECEB0086DC57 /* Sources */,
+				7494D097137CECEB0086DC57 /* Frameworks */,
+				7494D098137CECEB0086DC57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShakeAndBreak;
+			productName = ShakeAndBreak;
+			productReference = 7494D09A137CECEB0086DC57 /* ShakeAndBreak.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7494D091137CECEB0086DC57 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 7494D094137CECEB0086DC57 /* Build configuration list for PBXProject "ShakeAndBreak" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7494D08F137CECEB0086DC57;
+			productRefGroup = 7494D09B137CECEB0086DC57 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7494D099137CECEB0086DC57 /* ShakeAndBreak */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7494D098137CECEB0086DC57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7494D0A9137CECEB0086DC57 /* InfoPlist.strings in Resources */,
+				7494D0B2137CECEB0086DC57 /* MainWindow.xib in Resources */,
+				7494D0B8137CECEB0086DC57 /* ShakeAndBreakViewController.xib in Resources */,
+				74E578BA13CBDB6900D8FE0C /* glass.wav in Resources */,
+				74E578BB13CBDB6900D8FE0C /* home.png in Resources */,
+				74E578BC13CBDB6900D8FE0C /* homebroken.png in Resources */,
+				74E578BD13CBDB6900D8FE0C /* icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7494D096137CECEB0086DC57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7494D0AC137CECEB0086DC57 /* main.m in Sources */,
+				7494D0AF137CECEB0086DC57 /* ShakeAndBreakAppDelegate.m in Sources */,
+				7494D0B5137CECEB0086DC57 /* ShakeAndBreakViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7494D0A7137CECEB0086DC57 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7494D0A8137CECEB0086DC57 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7494D0B0137CECEB0086DC57 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7494D0B1137CECEB0086DC57 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		7494D0B6137CECEB0086DC57 /* ShakeAndBreakViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7494D0B7137CECEB0086DC57 /* en */,
+			);
+			name = ShakeAndBreakViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7494D0B9137CECEB0086DC57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7494D0BA137CECEB0086DC57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		7494D0BC137CECEB0086DC57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShakeAndBreak/ShakeAndBreak-Prefix.pch";
+				INFOPLIST_FILE = "ShakeAndBreak/ShakeAndBreak-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7494D0BD137CECEB0086DC57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShakeAndBreak/ShakeAndBreak-Prefix.pch";
+				INFOPLIST_FILE = "ShakeAndBreak/ShakeAndBreak-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7494D094137CECEB0086DC57 /* Build configuration list for PBXProject "ShakeAndBreak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7494D0B9137CECEB0086DC57 /* Debug */,
+				7494D0BA137CECEB0086DC57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7494D0BB137CECEB0086DC57 /* Build configuration list for PBXNativeTarget "ShakeAndBreak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7494D0BC137CECEB0086DC57 /* Debug */,
+				7494D0BD137CECEB0086DC57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7494D091137CECEB0086DC57 /* Project object */;
+}

@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7476045B137BD14600F69C28 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7476045A137BD14600F69C28 /* UIKit.framework */; };
+		7476045D137BD14600F69C28 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7476045C137BD14600F69C28 /* Foundation.framework */; };
+		7476045F137BD14600F69C28 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7476045E137BD14600F69C28 /* CoreGraphics.framework */; };
+		74760465137BD14600F69C28 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 74760463137BD14600F69C28 /* InfoPlist.strings */; };
+		74760468137BD14600F69C28 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 74760467137BD14600F69C28 /* main.m */; };
+		7476046B137BD14600F69C28 /* State_LabAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7476046A137BD14600F69C28 /* State_LabAppDelegate.m */; };
+		7476046E137BD14600F69C28 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7476046C137BD14600F69C28 /* MainWindow.xib */; };
+		74760471137BD14600F69C28 /* State_LabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74760470137BD14600F69C28 /* State_LabViewController.m */; };
+		74760474137BD14600F69C28 /* State_LabViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74760472137BD14600F69C28 /* State_LabViewController.xib */; };
+		74E5782013CBD92400D8FE0C /* smiley.png in Resources */ = {isa = PBXBuildFile; fileRef = 74E5781F13CBD92400D8FE0C /* smiley.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		74760456137BD14600F69C28 /* State Lab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "State Lab.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7476045A137BD14600F69C28 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7476045C137BD14600F69C28 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7476045E137BD14600F69C28 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		74760462137BD14600F69C28 /* State Lab-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "State Lab-Info.plist"; sourceTree = "<group>"; };
+		74760464137BD14600F69C28 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		74760466137BD14600F69C28 /* State Lab-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "State Lab-Prefix.pch"; sourceTree = "<group>"; };
+		74760467137BD14600F69C28 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		74760469137BD14600F69C28 /* State_LabAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = State_LabAppDelegate.h; sourceTree = "<group>"; };
+		7476046A137BD14600F69C28 /* State_LabAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = State_LabAppDelegate.m; sourceTree = "<group>"; };
+		7476046D137BD14600F69C28 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		7476046F137BD14600F69C28 /* State_LabViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = State_LabViewController.h; sourceTree = "<group>"; };
+		74760470137BD14600F69C28 /* State_LabViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = State_LabViewController.m; sourceTree = "<group>"; };
+		74760473137BD14600F69C28 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/State_LabViewController.xib; sourceTree = "<group>"; };
+		74E5781F13CBD92400D8FE0C /* smiley.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smiley.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		74760453137BD14600F69C28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7476045B137BD14600F69C28 /* UIKit.framework in Frameworks */,
+				7476045D137BD14600F69C28 /* Foundation.framework in Frameworks */,
+				7476045F137BD14600F69C28 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7476044B137BD14600F69C28 = {
+			isa = PBXGroup;
+			children = (
+				74760460137BD14600F69C28 /* State Lab */,
+				74760459137BD14600F69C28 /* Frameworks */,
+				74760457137BD14600F69C28 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		74760457137BD14600F69C28 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				74760456137BD14600F69C28 /* State Lab.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		74760459137BD14600F69C28 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7476045A137BD14600F69C28 /* UIKit.framework */,
+				7476045C137BD14600F69C28 /* Foundation.framework */,
+				7476045E137BD14600F69C28 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		74760460137BD14600F69C28 /* State Lab */ = {
+			isa = PBXGroup;
+			children = (
+				74760469137BD14600F69C28 /* State_LabAppDelegate.h */,
+				7476046A137BD14600F69C28 /* State_LabAppDelegate.m */,
+				7476046C137BD14600F69C28 /* MainWindow.xib */,
+				7476046F137BD14600F69C28 /* State_LabViewController.h */,
+				74760470137BD14600F69C28 /* State_LabViewController.m */,
+				74760472137BD14600F69C28 /* State_LabViewController.xib */,
+				74760461137BD14600F69C28 /* Supporting Files */,
+			);
+			path = "State Lab";
+			sourceTree = "<group>";
+		};
+		74760461137BD14600F69C28 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				74E5781F13CBD92400D8FE0C /* smiley.png */,
+				74760462137BD14600F69C28 /* State Lab-Info.plist */,
+				74760463137BD14600F69C28 /* InfoPlist.strings */,
+				74760466137BD14600F69C28 /* State Lab-Prefix.pch */,
+				74760467137BD14600F69C28 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		74760455137BD14600F69C28 /* State Lab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74760477137BD14600F69C28 /* Build configuration list for PBXNativeTarget "State Lab" */;
+			buildPhases = (
+				74760452137BD14600F69C28 /* Sources */,
+				74760453137BD14600F69C28 /* Frameworks */,
+				74760454137BD14600F69C28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "State Lab";
+			productName = "State Lab";
+			productReference = 74760456137BD14600F69C28 /* State Lab.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7476044D137BD14600F69C28 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 74760450137BD14600F69C28 /* Build configuration list for PBXProject "State Lab" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7476044B137BD14600F69C28;
+			productRefGroup = 74760457137BD14600F69C28 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				74760455137BD14600F69C28 /* State Lab */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		74760454137BD14600F69C28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74760465137BD14600F69C28 /* InfoPlist.strings in Resources */,
+				7476046E137BD14600F69C28 /* MainWindow.xib in Resources */,
+				74760474137BD14600F69C28 /* State_LabViewController.xib in Resources */,
+				74E5782013CBD92400D8FE0C /* smiley.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		74760452137BD14600F69C28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74760468137BD14600F69C28 /* main.m in Sources */,
+				7476046B137BD14600F69C28 /* State_LabAppDelegate.m in Sources */,
+				74760471137BD14600F69C28 /* State_LabViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		74760463137BD14600F69C28 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74760464137BD14600F69C28 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7476046C137BD14600F69C28 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7476046D137BD14600F69C28 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		74760472137BD14600F69C28 /* State_LabViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74760473137BD14600F69C28 /* en */,
+			);
+			name = State_LabViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		74760475137BD14600F69C28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		74760476137BD14600F69C28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		74760478137BD14600F69C28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "State Lab/State Lab-Prefix.pch";
+				INFOPLIST_FILE = "State Lab/State Lab-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		74760479137BD14600F69C28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "State Lab/State Lab-Prefix.pch";
+				INFOPLIST_FILE = "State Lab/State Lab-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		74760450137BD14600F69C28 /* Build configuration list for PBXProject "State Lab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74760475137BD14600F69C28 /* Debug */,
+				74760476137BD14600F69C28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74760477137BD14600F69C28 /* Build configuration list for PBXNativeTarget "State Lab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74760478137BD14600F69C28 /* Debug */,
+				74760479137BD14600F69C28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7476044D137BD14600F69C28 /* Project object */;
+}

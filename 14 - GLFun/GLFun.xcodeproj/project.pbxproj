@@ -1,0 +1,326 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7451997913CB19D60000E590 /* GLFunViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7451997813CB19D60000E590 /* GLFunViewController.xib */; };
+		7451997E13CB19FD0000E590 /* UIColor-Random.m in Sources */ = {isa = PBXBuildFile; fileRef = 7451997D13CB19FD0000E590 /* UIColor-Random.m */; };
+		7494CEE4137CD5730086DC57 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7494CEE3137CD5730086DC57 /* UIKit.framework */; };
+		7494CEE6137CD5740086DC57 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7494CEE5137CD5730086DC57 /* Foundation.framework */; };
+		7494CEE8137CD5740086DC57 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7494CEE7137CD5740086DC57 /* CoreGraphics.framework */; };
+		7494CEEE137CD5740086DC57 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7494CEEC137CD5740086DC57 /* InfoPlist.strings */; };
+		7494CEF1137CD5740086DC57 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7494CEF0137CD5740086DC57 /* main.m */; };
+		7494CEF4137CD5740086DC57 /* GLFunAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7494CEF3137CD5740086DC57 /* GLFunAppDelegate.m */; };
+		7494CEF7137CD5740086DC57 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7494CEF5137CD5740086DC57 /* MainWindow.xib */; };
+		7494CEFA137CD5740086DC57 /* GLFunViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7494CEF9137CD5740086DC57 /* GLFunViewController.m */; };
+		7494CEFD137CD5740086DC57 /* GLFunViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7494CEFB137CD5740086DC57 /* GLFunViewController.xib */; };
+		7494CF11137CD69A0086DC57 /* GLFunView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7494CF10137CD69A0086DC57 /* GLFunView.m */; };
+		7494CF20137CD8D60086DC57 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7494CF1F137CD8D60086DC57 /* OpenGLES.framework */; };
+		7494CF23137CD8DB0086DC57 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7494CF22137CD8DB0086DC57 /* QuartzCore.framework */; };
+		74E5782C13CBD95D00D8FE0C /* Texture2D.m in Sources */ = {isa = PBXBuildFile; fileRef = 74E5782B13CBD95D00D8FE0C /* Texture2D.m */; };
+		74E5782F13CBD97D00D8FE0C /* OpenGLES2DView.m in Sources */ = {isa = PBXBuildFile; fileRef = 74E5782E13CBD97D00D8FE0C /* OpenGLES2DView.m */; };
+		74E5783113CBD99F00D8FE0C /* iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 74E5783013CBD99F00D8FE0C /* iphone.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7451997813CB19D60000E590 /* GLFunViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GLFunViewController.xib; sourceTree = "<group>"; };
+		7451997B13CB19EA0000E590 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		7451997C13CB19FD0000E590 /* UIColor-Random.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor-Random.h"; sourceTree = "<group>"; };
+		7451997D13CB19FD0000E590 /* UIColor-Random.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor-Random.m"; sourceTree = "<group>"; };
+		7494CEDF137CD5730086DC57 /* GLFun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GLFun.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7494CEE3137CD5730086DC57 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7494CEE5137CD5730086DC57 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7494CEE7137CD5740086DC57 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7494CEEB137CD5740086DC57 /* GLFun-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GLFun-Info.plist"; sourceTree = "<group>"; };
+		7494CEED137CD5740086DC57 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7494CEEF137CD5740086DC57 /* GLFun-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GLFun-Prefix.pch"; sourceTree = "<group>"; };
+		7494CEF0137CD5740086DC57 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7494CEF2137CD5740086DC57 /* GLFunAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLFunAppDelegate.h; sourceTree = "<group>"; };
+		7494CEF3137CD5740086DC57 /* GLFunAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLFunAppDelegate.m; sourceTree = "<group>"; };
+		7494CEF6137CD5740086DC57 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		7494CEF8137CD5740086DC57 /* GLFunViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLFunViewController.h; sourceTree = "<group>"; };
+		7494CEF9137CD5740086DC57 /* GLFunViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLFunViewController.m; sourceTree = "<group>"; };
+		7494CEFC137CD5740086DC57 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/GLFunViewController.xib; sourceTree = "<group>"; };
+		7494CF0F137CD69A0086DC57 /* GLFunView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLFunView.h; sourceTree = "<group>"; };
+		7494CF10137CD69A0086DC57 /* GLFunView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLFunView.m; sourceTree = "<group>"; };
+		7494CF1F137CD8D60086DC57 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		7494CF22137CD8DB0086DC57 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		74E5782A13CBD95D00D8FE0C /* Texture2D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Texture2D.h; sourceTree = "<group>"; };
+		74E5782B13CBD95D00D8FE0C /* Texture2D.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Texture2D.m; sourceTree = "<group>"; };
+		74E5782D13CBD97D00D8FE0C /* OpenGLES2DView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenGLES2DView.h; sourceTree = "<group>"; };
+		74E5782E13CBD97D00D8FE0C /* OpenGLES2DView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenGLES2DView.m; sourceTree = "<group>"; };
+		74E5783013CBD99F00D8FE0C /* iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iphone.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7494CEDC137CD5730086DC57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7494CF23137CD8DB0086DC57 /* QuartzCore.framework in Frameworks */,
+				7494CF20137CD8D60086DC57 /* OpenGLES.framework in Frameworks */,
+				7494CEE4137CD5730086DC57 /* UIKit.framework in Frameworks */,
+				7494CEE6137CD5740086DC57 /* Foundation.framework in Frameworks */,
+				7494CEE8137CD5740086DC57 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7494CED4137CD5730086DC57 = {
+			isa = PBXGroup;
+			children = (
+				7494CEE9137CD5740086DC57 /* GLFun */,
+				7494CEE2137CD5730086DC57 /* Frameworks */,
+				7494CEE0137CD5730086DC57 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7494CEE0137CD5730086DC57 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7494CEDF137CD5730086DC57 /* GLFun.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7494CEE2137CD5730086DC57 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7494CF22137CD8DB0086DC57 /* QuartzCore.framework */,
+				7494CF1F137CD8D60086DC57 /* OpenGLES.framework */,
+				7494CEE3137CD5730086DC57 /* UIKit.framework */,
+				7494CEE5137CD5730086DC57 /* Foundation.framework */,
+				7494CEE7137CD5740086DC57 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7494CEE9137CD5740086DC57 /* GLFun */ = {
+			isa = PBXGroup;
+			children = (
+				7451997813CB19D60000E590 /* GLFunViewController.xib */,
+				74E5782D13CBD97D00D8FE0C /* OpenGLES2DView.h */,
+				74E5782E13CBD97D00D8FE0C /* OpenGLES2DView.m */,
+				7451997B13CB19EA0000E590 /* Constants.h */,
+				74E5782A13CBD95D00D8FE0C /* Texture2D.h */,
+				74E5782B13CBD95D00D8FE0C /* Texture2D.m */,
+				7451997C13CB19FD0000E590 /* UIColor-Random.h */,
+				7451997D13CB19FD0000E590 /* UIColor-Random.m */,
+				7494CEF2137CD5740086DC57 /* GLFunAppDelegate.h */,
+				7494CEF3137CD5740086DC57 /* GLFunAppDelegate.m */,
+				7494CEF5137CD5740086DC57 /* MainWindow.xib */,
+				7494CEF8137CD5740086DC57 /* GLFunViewController.h */,
+				7494CEF9137CD5740086DC57 /* GLFunViewController.m */,
+				7494CEFB137CD5740086DC57 /* GLFunViewController.xib */,
+				7494CEEA137CD5740086DC57 /* Supporting Files */,
+				7494CF0F137CD69A0086DC57 /* GLFunView.h */,
+				7494CF10137CD69A0086DC57 /* GLFunView.m */,
+			);
+			path = GLFun;
+			sourceTree = "<group>";
+		};
+		7494CEEA137CD5740086DC57 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				74E5783013CBD99F00D8FE0C /* iphone.png */,
+				7494CEEB137CD5740086DC57 /* GLFun-Info.plist */,
+				7494CEEC137CD5740086DC57 /* InfoPlist.strings */,
+				7494CEEF137CD5740086DC57 /* GLFun-Prefix.pch */,
+				7494CEF0137CD5740086DC57 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7494CEDE137CD5730086DC57 /* GLFun */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7494CF00137CD5740086DC57 /* Build configuration list for PBXNativeTarget "GLFun" */;
+			buildPhases = (
+				7494CEDB137CD5730086DC57 /* Sources */,
+				7494CEDC137CD5730086DC57 /* Frameworks */,
+				7494CEDD137CD5730086DC57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GLFun;
+			productName = GLFun;
+			productReference = 7494CEDF137CD5730086DC57 /* GLFun.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7494CED6137CD5730086DC57 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 7494CED9137CD5730086DC57 /* Build configuration list for PBXProject "GLFun" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7494CED4137CD5730086DC57;
+			productRefGroup = 7494CEE0137CD5730086DC57 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7494CEDE137CD5730086DC57 /* GLFun */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7494CEDD137CD5730086DC57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7494CEEE137CD5740086DC57 /* InfoPlist.strings in Resources */,
+				7494CEF7137CD5740086DC57 /* MainWindow.xib in Resources */,
+				7494CEFD137CD5740086DC57 /* GLFunViewController.xib in Resources */,
+				7451997913CB19D60000E590 /* GLFunViewController.xib in Resources */,
+				74E5783113CBD99F00D8FE0C /* iphone.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7494CEDB137CD5730086DC57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7494CEF1137CD5740086DC57 /* main.m in Sources */,
+				7494CEF4137CD5740086DC57 /* GLFunAppDelegate.m in Sources */,
+				7494CEFA137CD5740086DC57 /* GLFunViewController.m in Sources */,
+				7494CF11137CD69A0086DC57 /* GLFunView.m in Sources */,
+				7451997E13CB19FD0000E590 /* UIColor-Random.m in Sources */,
+				74E5782C13CBD95D00D8FE0C /* Texture2D.m in Sources */,
+				74E5782F13CBD97D00D8FE0C /* OpenGLES2DView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7494CEEC137CD5740086DC57 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7494CEED137CD5740086DC57 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7494CEF5137CD5740086DC57 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7494CEF6137CD5740086DC57 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		7494CEFB137CD5740086DC57 /* GLFunViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7494CEFC137CD5740086DC57 /* en */,
+			);
+			name = GLFunViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7494CEFE137CD5740086DC57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7494CEFF137CD5740086DC57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		7494CF01137CD5740086DC57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GLFun/GLFun-Prefix.pch";
+				INFOPLIST_FILE = "GLFun/GLFun-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7494CF02137CD5740086DC57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GLFun/GLFun-Prefix.pch";
+				INFOPLIST_FILE = "GLFun/GLFun-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7494CED9137CD5730086DC57 /* Build configuration list for PBXProject "GLFun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7494CEFE137CD5740086DC57 /* Debug */,
+				7494CEFF137CD5740086DC57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7494CF00137CD5740086DC57 /* Build configuration list for PBXNativeTarget "GLFun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7494CF01137CD5740086DC57 /* Debug */,
+				7494CF02137CD5740086DC57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7494CED6137CD5730086DC57 /* Project object */;
+}

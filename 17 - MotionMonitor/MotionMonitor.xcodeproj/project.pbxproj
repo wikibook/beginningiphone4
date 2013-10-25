@@ -1,0 +1,287 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7494D066137CE9F60086DC57 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7494D065137CE9F60086DC57 /* UIKit.framework */; };
+		7494D068137CE9F60086DC57 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7494D067137CE9F60086DC57 /* Foundation.framework */; };
+		7494D06A137CE9F60086DC57 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7494D069137CE9F60086DC57 /* CoreGraphics.framework */; };
+		7494D070137CE9F60086DC57 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7494D06E137CE9F60086DC57 /* InfoPlist.strings */; };
+		7494D073137CE9F70086DC57 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7494D072137CE9F60086DC57 /* main.m */; };
+		7494D076137CE9F70086DC57 /* MotionMonitorAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7494D075137CE9F70086DC57 /* MotionMonitorAppDelegate.m */; };
+		7494D079137CE9F70086DC57 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7494D077137CE9F70086DC57 /* MainWindow.xib */; };
+		7494D07C137CE9F70086DC57 /* MotionMonitorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7494D07B137CE9F70086DC57 /* MotionMonitorViewController.m */; };
+		7494D07F137CE9F70086DC57 /* MotionMonitorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7494D07D137CE9F70086DC57 /* MotionMonitorViewController.xib */; };
+		7494D086137CEA4E0086DC57 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7494D085137CEA4E0086DC57 /* CoreMotion.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7494D061137CE9F60086DC57 /* MotionMonitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MotionMonitor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7494D065137CE9F60086DC57 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7494D067137CE9F60086DC57 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7494D069137CE9F60086DC57 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7494D06D137CE9F60086DC57 /* MotionMonitor-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MotionMonitor-Info.plist"; sourceTree = "<group>"; };
+		7494D06F137CE9F60086DC57 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7494D071137CE9F60086DC57 /* MotionMonitor-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MotionMonitor-Prefix.pch"; sourceTree = "<group>"; };
+		7494D072137CE9F60086DC57 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7494D074137CE9F70086DC57 /* MotionMonitorAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MotionMonitorAppDelegate.h; sourceTree = "<group>"; };
+		7494D075137CE9F70086DC57 /* MotionMonitorAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MotionMonitorAppDelegate.m; sourceTree = "<group>"; };
+		7494D078137CE9F70086DC57 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		7494D07A137CE9F70086DC57 /* MotionMonitorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MotionMonitorViewController.h; sourceTree = "<group>"; };
+		7494D07B137CE9F70086DC57 /* MotionMonitorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MotionMonitorViewController.m; sourceTree = "<group>"; };
+		7494D07E137CE9F70086DC57 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MotionMonitorViewController.xib; sourceTree = "<group>"; };
+		7494D085137CEA4E0086DC57 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7494D05E137CE9F60086DC57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7494D086137CEA4E0086DC57 /* CoreMotion.framework in Frameworks */,
+				7494D066137CE9F60086DC57 /* UIKit.framework in Frameworks */,
+				7494D068137CE9F60086DC57 /* Foundation.framework in Frameworks */,
+				7494D06A137CE9F60086DC57 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7494D056137CE9F60086DC57 = {
+			isa = PBXGroup;
+			children = (
+				7494D06B137CE9F60086DC57 /* MotionMonitor */,
+				7494D064137CE9F60086DC57 /* Frameworks */,
+				7494D062137CE9F60086DC57 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7494D062137CE9F60086DC57 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7494D061137CE9F60086DC57 /* MotionMonitor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7494D064137CE9F60086DC57 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7494D085137CEA4E0086DC57 /* CoreMotion.framework */,
+				7494D065137CE9F60086DC57 /* UIKit.framework */,
+				7494D067137CE9F60086DC57 /* Foundation.framework */,
+				7494D069137CE9F60086DC57 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7494D06B137CE9F60086DC57 /* MotionMonitor */ = {
+			isa = PBXGroup;
+			children = (
+				7494D074137CE9F70086DC57 /* MotionMonitorAppDelegate.h */,
+				7494D075137CE9F70086DC57 /* MotionMonitorAppDelegate.m */,
+				7494D077137CE9F70086DC57 /* MainWindow.xib */,
+				7494D07A137CE9F70086DC57 /* MotionMonitorViewController.h */,
+				7494D07B137CE9F70086DC57 /* MotionMonitorViewController.m */,
+				7494D07D137CE9F70086DC57 /* MotionMonitorViewController.xib */,
+				7494D06C137CE9F60086DC57 /* Supporting Files */,
+			);
+			path = MotionMonitor;
+			sourceTree = "<group>";
+		};
+		7494D06C137CE9F60086DC57 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7494D06D137CE9F60086DC57 /* MotionMonitor-Info.plist */,
+				7494D06E137CE9F60086DC57 /* InfoPlist.strings */,
+				7494D071137CE9F60086DC57 /* MotionMonitor-Prefix.pch */,
+				7494D072137CE9F60086DC57 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7494D060137CE9F60086DC57 /* MotionMonitor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7494D082137CE9F70086DC57 /* Build configuration list for PBXNativeTarget "MotionMonitor" */;
+			buildPhases = (
+				7494D05D137CE9F60086DC57 /* Sources */,
+				7494D05E137CE9F60086DC57 /* Frameworks */,
+				7494D05F137CE9F60086DC57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MotionMonitor;
+			productName = MotionMonitor;
+			productReference = 7494D061137CE9F60086DC57 /* MotionMonitor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7494D058137CE9F60086DC57 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 7494D05B137CE9F60086DC57 /* Build configuration list for PBXProject "MotionMonitor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7494D056137CE9F60086DC57;
+			productRefGroup = 7494D062137CE9F60086DC57 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7494D060137CE9F60086DC57 /* MotionMonitor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7494D05F137CE9F60086DC57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7494D070137CE9F60086DC57 /* InfoPlist.strings in Resources */,
+				7494D079137CE9F70086DC57 /* MainWindow.xib in Resources */,
+				7494D07F137CE9F70086DC57 /* MotionMonitorViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7494D05D137CE9F60086DC57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7494D073137CE9F70086DC57 /* main.m in Sources */,
+				7494D076137CE9F70086DC57 /* MotionMonitorAppDelegate.m in Sources */,
+				7494D07C137CE9F70086DC57 /* MotionMonitorViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7494D06E137CE9F60086DC57 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7494D06F137CE9F60086DC57 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7494D077137CE9F70086DC57 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7494D078137CE9F70086DC57 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		7494D07D137CE9F70086DC57 /* MotionMonitorViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7494D07E137CE9F70086DC57 /* en */,
+			);
+			name = MotionMonitorViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7494D080137CE9F70086DC57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7494D081137CE9F70086DC57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		7494D083137CE9F70086DC57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MotionMonitor/MotionMonitor-Prefix.pch";
+				INFOPLIST_FILE = "MotionMonitor/MotionMonitor-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7494D084137CE9F70086DC57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MotionMonitor/MotionMonitor-Prefix.pch";
+				INFOPLIST_FILE = "MotionMonitor/MotionMonitor-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7494D05B137CE9F60086DC57 /* Build configuration list for PBXProject "MotionMonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7494D080137CE9F70086DC57 /* Debug */,
+				7494D081137CE9F70086DC57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7494D082137CE9F70086DC57 /* Build configuration list for PBXNativeTarget "MotionMonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7494D083137CE9F70086DC57 /* Debug */,
+				7494D084137CE9F70086DC57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7494D058137CE9F60086DC57 /* Project object */;
+}

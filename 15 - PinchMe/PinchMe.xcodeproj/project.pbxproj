@@ -1,0 +1,283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7494CFD1137CE2510086DC57 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7494CFD0137CE2510086DC57 /* UIKit.framework */; };
+		7494CFD3137CE2510086DC57 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7494CFD2137CE2510086DC57 /* Foundation.framework */; };
+		7494CFD5137CE2510086DC57 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7494CFD4137CE2510086DC57 /* CoreGraphics.framework */; };
+		7494CFDB137CE2510086DC57 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7494CFD9137CE2510086DC57 /* InfoPlist.strings */; };
+		7494CFDE137CE2510086DC57 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7494CFDD137CE2510086DC57 /* main.m */; };
+		7494CFE1137CE2510086DC57 /* PinchMeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7494CFE0137CE2510086DC57 /* PinchMeAppDelegate.m */; };
+		7494CFE4137CE2510086DC57 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7494CFE2137CE2510086DC57 /* MainWindow.xib */; };
+		7494CFE7137CE2510086DC57 /* PinchMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7494CFE6137CE2510086DC57 /* PinchMeViewController.m */; };
+		7494CFEA137CE2510086DC57 /* PinchMeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7494CFE8137CE2510086DC57 /* PinchMeViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7494CFCC137CE2510086DC57 /* PinchMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PinchMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7494CFD0137CE2510086DC57 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7494CFD2137CE2510086DC57 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7494CFD4137CE2510086DC57 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7494CFD8137CE2510086DC57 /* PinchMe-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PinchMe-Info.plist"; sourceTree = "<group>"; };
+		7494CFDA137CE2510086DC57 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7494CFDC137CE2510086DC57 /* PinchMe-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PinchMe-Prefix.pch"; sourceTree = "<group>"; };
+		7494CFDD137CE2510086DC57 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7494CFDF137CE2510086DC57 /* PinchMeAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PinchMeAppDelegate.h; sourceTree = "<group>"; };
+		7494CFE0137CE2510086DC57 /* PinchMeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PinchMeAppDelegate.m; sourceTree = "<group>"; };
+		7494CFE3137CE2510086DC57 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		7494CFE5137CE2510086DC57 /* PinchMeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PinchMeViewController.h; sourceTree = "<group>"; };
+		7494CFE6137CE2510086DC57 /* PinchMeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PinchMeViewController.m; sourceTree = "<group>"; };
+		7494CFE9137CE2510086DC57 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PinchMeViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7494CFC9137CE2510086DC57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7494CFD1137CE2510086DC57 /* UIKit.framework in Frameworks */,
+				7494CFD3137CE2510086DC57 /* Foundation.framework in Frameworks */,
+				7494CFD5137CE2510086DC57 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7494CFC1137CE2500086DC57 = {
+			isa = PBXGroup;
+			children = (
+				7494CFD6137CE2510086DC57 /* PinchMe */,
+				7494CFCF137CE2510086DC57 /* Frameworks */,
+				7494CFCD137CE2510086DC57 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7494CFCD137CE2510086DC57 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7494CFCC137CE2510086DC57 /* PinchMe.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7494CFCF137CE2510086DC57 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7494CFD0137CE2510086DC57 /* UIKit.framework */,
+				7494CFD2137CE2510086DC57 /* Foundation.framework */,
+				7494CFD4137CE2510086DC57 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7494CFD6137CE2510086DC57 /* PinchMe */ = {
+			isa = PBXGroup;
+			children = (
+				7494CFDF137CE2510086DC57 /* PinchMeAppDelegate.h */,
+				7494CFE0137CE2510086DC57 /* PinchMeAppDelegate.m */,
+				7494CFE2137CE2510086DC57 /* MainWindow.xib */,
+				7494CFE5137CE2510086DC57 /* PinchMeViewController.h */,
+				7494CFE6137CE2510086DC57 /* PinchMeViewController.m */,
+				7494CFE8137CE2510086DC57 /* PinchMeViewController.xib */,
+				7494CFD7137CE2510086DC57 /* Supporting Files */,
+			);
+			path = PinchMe;
+			sourceTree = "<group>";
+		};
+		7494CFD7137CE2510086DC57 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7494CFD8137CE2510086DC57 /* PinchMe-Info.plist */,
+				7494CFD9137CE2510086DC57 /* InfoPlist.strings */,
+				7494CFDC137CE2510086DC57 /* PinchMe-Prefix.pch */,
+				7494CFDD137CE2510086DC57 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7494CFCB137CE2510086DC57 /* PinchMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7494CFED137CE2510086DC57 /* Build configuration list for PBXNativeTarget "PinchMe" */;
+			buildPhases = (
+				7494CFC8137CE2510086DC57 /* Sources */,
+				7494CFC9137CE2510086DC57 /* Frameworks */,
+				7494CFCA137CE2510086DC57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PinchMe;
+			productName = PinchMe;
+			productReference = 7494CFCC137CE2510086DC57 /* PinchMe.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7494CFC3137CE2500086DC57 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 7494CFC6137CE2500086DC57 /* Build configuration list for PBXProject "PinchMe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7494CFC1137CE2500086DC57;
+			productRefGroup = 7494CFCD137CE2510086DC57 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7494CFCB137CE2510086DC57 /* PinchMe */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7494CFCA137CE2510086DC57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7494CFDB137CE2510086DC57 /* InfoPlist.strings in Resources */,
+				7494CFE4137CE2510086DC57 /* MainWindow.xib in Resources */,
+				7494CFEA137CE2510086DC57 /* PinchMeViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7494CFC8137CE2510086DC57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7494CFDE137CE2510086DC57 /* main.m in Sources */,
+				7494CFE1137CE2510086DC57 /* PinchMeAppDelegate.m in Sources */,
+				7494CFE7137CE2510086DC57 /* PinchMeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7494CFD9137CE2510086DC57 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7494CFDA137CE2510086DC57 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7494CFE2137CE2510086DC57 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7494CFE3137CE2510086DC57 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		7494CFE8137CE2510086DC57 /* PinchMeViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7494CFE9137CE2510086DC57 /* en */,
+			);
+			name = PinchMeViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7494CFEB137CE2510086DC57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7494CFEC137CE2510086DC57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		7494CFEE137CE2510086DC57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PinchMe/PinchMe-Prefix.pch";
+				INFOPLIST_FILE = "PinchMe/PinchMe-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7494CFEF137CE2510086DC57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PinchMe/PinchMe-Prefix.pch";
+				INFOPLIST_FILE = "PinchMe/PinchMe-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7494CFC6137CE2500086DC57 /* Build configuration list for PBXProject "PinchMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7494CFEB137CE2510086DC57 /* Debug */,
+				7494CFEC137CE2510086DC57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7494CFED137CE2510086DC57 /* Build configuration list for PBXNativeTarget "PinchMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7494CFEE137CE2510086DC57 /* Debug */,
+				7494CFEF137CE2510086DC57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7494CFC3137CE2500086DC57 /* Project object */;
+}

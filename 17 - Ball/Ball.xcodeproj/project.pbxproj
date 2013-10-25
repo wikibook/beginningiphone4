@@ -1,0 +1,298 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7494D0DA137CEFA80086DC57 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7494D0D9137CEFA80086DC57 /* UIKit.framework */; };
+		7494D0DC137CEFA80086DC57 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7494D0DB137CEFA80086DC57 /* Foundation.framework */; };
+		7494D0DE137CEFA80086DC57 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7494D0DD137CEFA80086DC57 /* CoreGraphics.framework */; };
+		7494D0E4137CEFA80086DC57 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7494D0E2137CEFA80086DC57 /* InfoPlist.strings */; };
+		7494D0E7137CEFA80086DC57 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7494D0E6137CEFA80086DC57 /* main.m */; };
+		7494D0EA137CEFA80086DC57 /* BallAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7494D0E9137CEFA80086DC57 /* BallAppDelegate.m */; };
+		7494D0ED137CEFA80086DC57 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7494D0EB137CEFA80086DC57 /* MainWindow.xib */; };
+		7494D0F0137CEFA80086DC57 /* BallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7494D0EF137CEFA80086DC57 /* BallViewController.m */; };
+		7494D0F3137CEFA90086DC57 /* BallViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7494D0F1137CEFA90086DC57 /* BallViewController.xib */; };
+		7494D0FD137CEFD40086DC57 /* BallView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7494D0FC137CEFD40086DC57 /* BallView.m */; };
+		7494D0FF137CF0FA0086DC57 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7494D0FE137CF0FA0086DC57 /* CoreMotion.framework */; };
+		74E5788B13CBDADF00D8FE0C /* ball.png in Resources */ = {isa = PBXBuildFile; fileRef = 74E5788A13CBDADF00D8FE0C /* ball.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7494D0D5137CEFA80086DC57 /* Ball.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ball.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7494D0D9137CEFA80086DC57 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7494D0DB137CEFA80086DC57 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7494D0DD137CEFA80086DC57 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7494D0E1137CEFA80086DC57 /* Ball-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Ball-Info.plist"; sourceTree = "<group>"; };
+		7494D0E3137CEFA80086DC57 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7494D0E5137CEFA80086DC57 /* Ball-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Ball-Prefix.pch"; sourceTree = "<group>"; };
+		7494D0E6137CEFA80086DC57 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7494D0E8137CEFA80086DC57 /* BallAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BallAppDelegate.h; sourceTree = "<group>"; };
+		7494D0E9137CEFA80086DC57 /* BallAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BallAppDelegate.m; sourceTree = "<group>"; };
+		7494D0EC137CEFA80086DC57 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		7494D0EE137CEFA80086DC57 /* BallViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BallViewController.h; sourceTree = "<group>"; };
+		7494D0EF137CEFA80086DC57 /* BallViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BallViewController.m; sourceTree = "<group>"; };
+		7494D0F2137CEFA90086DC57 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BallViewController.xib; sourceTree = "<group>"; };
+		7494D0FB137CEFD40086DC57 /* BallView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BallView.h; sourceTree = "<group>"; };
+		7494D0FC137CEFD40086DC57 /* BallView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BallView.m; sourceTree = "<group>"; };
+		7494D0FE137CF0FA0086DC57 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		74E5788A13CBDADF00D8FE0C /* ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7494D0D2137CEFA80086DC57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7494D0FF137CF0FA0086DC57 /* CoreMotion.framework in Frameworks */,
+				7494D0DA137CEFA80086DC57 /* UIKit.framework in Frameworks */,
+				7494D0DC137CEFA80086DC57 /* Foundation.framework in Frameworks */,
+				7494D0DE137CEFA80086DC57 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7494D0CA137CEFA80086DC57 = {
+			isa = PBXGroup;
+			children = (
+				7494D0DF137CEFA80086DC57 /* Ball */,
+				7494D0D8137CEFA80086DC57 /* Frameworks */,
+				7494D0D6137CEFA80086DC57 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7494D0D6137CEFA80086DC57 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7494D0D5137CEFA80086DC57 /* Ball.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7494D0D8137CEFA80086DC57 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7494D0FE137CF0FA0086DC57 /* CoreMotion.framework */,
+				7494D0D9137CEFA80086DC57 /* UIKit.framework */,
+				7494D0DB137CEFA80086DC57 /* Foundation.framework */,
+				7494D0DD137CEFA80086DC57 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7494D0DF137CEFA80086DC57 /* Ball */ = {
+			isa = PBXGroup;
+			children = (
+				7494D0E8137CEFA80086DC57 /* BallAppDelegate.h */,
+				7494D0E9137CEFA80086DC57 /* BallAppDelegate.m */,
+				7494D0EB137CEFA80086DC57 /* MainWindow.xib */,
+				7494D0EE137CEFA80086DC57 /* BallViewController.h */,
+				7494D0EF137CEFA80086DC57 /* BallViewController.m */,
+				7494D0F1137CEFA90086DC57 /* BallViewController.xib */,
+				7494D0E0137CEFA80086DC57 /* Supporting Files */,
+				7494D0FB137CEFD40086DC57 /* BallView.h */,
+				7494D0FC137CEFD40086DC57 /* BallView.m */,
+			);
+			path = Ball;
+			sourceTree = "<group>";
+		};
+		7494D0E0137CEFA80086DC57 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				74E5788A13CBDADF00D8FE0C /* ball.png */,
+				7494D0E1137CEFA80086DC57 /* Ball-Info.plist */,
+				7494D0E2137CEFA80086DC57 /* InfoPlist.strings */,
+				7494D0E5137CEFA80086DC57 /* Ball-Prefix.pch */,
+				7494D0E6137CEFA80086DC57 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7494D0D4137CEFA80086DC57 /* Ball */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7494D0F6137CEFA90086DC57 /* Build configuration list for PBXNativeTarget "Ball" */;
+			buildPhases = (
+				7494D0D1137CEFA80086DC57 /* Sources */,
+				7494D0D2137CEFA80086DC57 /* Frameworks */,
+				7494D0D3137CEFA80086DC57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ball;
+			productName = Ball;
+			productReference = 7494D0D5137CEFA80086DC57 /* Ball.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7494D0CC137CEFA80086DC57 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 7494D0CF137CEFA80086DC57 /* Build configuration list for PBXProject "Ball" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7494D0CA137CEFA80086DC57;
+			productRefGroup = 7494D0D6137CEFA80086DC57 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7494D0D4137CEFA80086DC57 /* Ball */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7494D0D3137CEFA80086DC57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7494D0E4137CEFA80086DC57 /* InfoPlist.strings in Resources */,
+				7494D0ED137CEFA80086DC57 /* MainWindow.xib in Resources */,
+				7494D0F3137CEFA90086DC57 /* BallViewController.xib in Resources */,
+				74E5788B13CBDADF00D8FE0C /* ball.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7494D0D1137CEFA80086DC57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7494D0E7137CEFA80086DC57 /* main.m in Sources */,
+				7494D0EA137CEFA80086DC57 /* BallAppDelegate.m in Sources */,
+				7494D0F0137CEFA80086DC57 /* BallViewController.m in Sources */,
+				7494D0FD137CEFD40086DC57 /* BallView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7494D0E2137CEFA80086DC57 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7494D0E3137CEFA80086DC57 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7494D0EB137CEFA80086DC57 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7494D0EC137CEFA80086DC57 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		7494D0F1137CEFA90086DC57 /* BallViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7494D0F2137CEFA90086DC57 /* en */,
+			);
+			name = BallViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7494D0F4137CEFA90086DC57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7494D0F5137CEFA90086DC57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		7494D0F7137CEFA90086DC57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ball/Ball-Prefix.pch";
+				INFOPLIST_FILE = "Ball/Ball-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7494D0F8137CEFA90086DC57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ball/Ball-Prefix.pch";
+				INFOPLIST_FILE = "Ball/Ball-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7494D0CF137CEFA80086DC57 /* Build configuration list for PBXProject "Ball" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7494D0F4137CEFA90086DC57 /* Debug */,
+				7494D0F5137CEFA90086DC57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7494D0F6137CEFA90086DC57 /* Build configuration list for PBXNativeTarget "Ball" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7494D0F7137CEFA90086DC57 /* Debug */,
+				7494D0F8137CEFA90086DC57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7494D0CC137CEFA80086DC57 /* Project object */;
+}
